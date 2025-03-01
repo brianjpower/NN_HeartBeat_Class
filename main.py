@@ -9,8 +9,8 @@ from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
 # Load data
-train_data = pd.read_csv("data_mitbih_train.csv", header=None).values
-test_data = pd.read_csv("data_mitbih_test.csv", header=None).values
+train_data = pd.read_csv("C:/Users/brian/PycharmProjects/NN_HeartBeat_Class/data_mitbih_train.csv", header=None).values
+test_data = pd.read_csv("C:/Users/brian/PycharmProjects/NN_HeartBeat_Class/data_mitbih_test.csv", header=None).values
 
 # Separate features and labels
 x_train = train_data[:, :-1]
